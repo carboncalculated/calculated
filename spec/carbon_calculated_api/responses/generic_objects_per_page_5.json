@@ -1,0 +1,319 @@
+
+{
+    "generic_objects":
+    [
+        {
+            "id":"4b83f9bb0e61b2220d0057a8",
+            "template_name":"airport",
+            "characteristics":
+            [
+                {
+                    "attribute":"label",
+                    "value":"United States,
+                     Columbia - COU",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057a9"
+                },
+                {
+                    "attribute":"airport_name",
+                    "value":"Columbia - COU",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057aa"
+                },
+                {
+                    "attribute":"latitude",
+                    "value":"38.82",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057ab"
+                },
+                {
+                    "attribute":"longitude",
+                    "value":"-92.22",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057ac"
+                },
+                {
+                    "attribute":"iata_code",
+                    "value":"COU",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057ad"
+                },
+                {
+                    "attribute":"airport",
+                    "value":"Columbia Regional",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057ae"
+                },
+                {
+                    "attribute":"country",
+                    "value":"United States",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057af"
+                }
+            ],
+            "formula_inputs":
+            [
+            ],
+            "identifier":"United States,
+             Columbia - COU - Columbia Regional"
+        },
+        {
+            "id":"4b83f9bb0e61b2220d0057b1",
+            "template_name":"airport",
+            "characteristics":
+            [
+                {
+                    "attribute":"label",
+                    "value":"United States,
+                     Columbus - CMH",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057b2"
+                },
+                {
+                    "attribute":"airport_name",
+                    "value":"Columbus - CMH",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057b3"
+                },
+                {
+                    "attribute":"latitude",
+                    "value":"40",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057b4"
+                },
+                {
+                    "attribute":"longitude",
+                    "value":"-82.89",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057b5"
+                },
+                {
+                    "attribute":"iata_code",
+                    "value":"CMH",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057b6"
+                },
+                {
+                    "attribute":"airport",
+                    "value":"Port Columbus International",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057b7"
+                },
+                {
+                    "attribute":"country",
+                    "value":"United States",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057b8"
+                }
+            ],
+            "formula_inputs":
+            [
+            ],
+            "identifier":"United States,
+             Columbus - CMH - Port Columbus International"
+        },
+        {
+            "id":"4b83f9bb0e61b2220d0057ba",
+            "template_name":"airport",
+            "characteristics":
+            [
+                {
+                    "attribute":"label",
+                    "value":"United States,
+                     Columbus - LCK",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057bb"
+                },
+                {
+                    "attribute":"airport_name",
+                    "value":"Columbus - LCK",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057bc"
+                },
+                {
+                    "attribute":"latitude",
+                    "value":"39.81",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057bd"
+                },
+                {
+                    "attribute":"longitude",
+                    "value":"-82.93",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057be"
+                },
+                {
+                    "attribute":"iata_code",
+                    "value":"LCK",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057bf"
+                },
+                {
+                    "attribute":"airport",
+                    "value":"Rickenbacker International",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c0"
+                },
+                {
+                    "attribute":"country",
+                    "value":"United States",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c1"
+                }
+            ],
+            "formula_inputs":
+            [
+            ],
+            "identifier":"United States,
+             Columbus - LCK - Rickenbacker International"
+        },
+        {
+            "id":"4b83f9bb0e61b2220d0057c3",
+            "template_name":"airport",
+            "characteristics":
+            [
+                {
+                    "attribute":"label",
+                    "value":"United States,
+                     Concord - MHT",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c4"
+                },
+                {
+                    "attribute":"airport_name",
+                    "value":"Concord - MHT",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c5"
+                },
+                {
+                    "attribute":"latitude",
+                    "value":"42.93",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057c6"
+                },
+                {
+                    "attribute":"longitude",
+                    "value":"-71.44",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057c7"
+                },
+                {
+                    "attribute":"iata_code",
+                    "value":"MHT",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c8"
+                },
+                {
+                    "attribute":"airport",
+                    "value":"Manchester-Boston Regional airport",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057c9"
+                },
+                {
+                    "attribute":"country",
+                    "value":"United States",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057ca"
+                }
+            ],
+            "formula_inputs":
+            [
+            ],
+            "identifier":"United States,
+             Concord - MHT - Manchester-Boston Regional airport"
+        },
+        {
+            "id":"4b83f9bb0e61b2220d0057cc",
+            "template_name":"airport",
+            "characteristics":
+            [
+                {
+                    "attribute":"label",
+                    "value":"United States,
+                     Conroe - CXO",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057cd"
+                },
+                {
+                    "attribute":"airport_name",
+                    "value":"Conroe - CXO",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057ce"
+                },
+                {
+                    "attribute":"latitude",
+                    "value":"30.35",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057cf"
+                },
+                {
+                    "attribute":"longitude",
+                    "value":"-95.41",
+                    "units":null,
+                    "value_type":"Float",
+                    "id":"4b83f9bb0e61b2220d0057d0"
+                },
+                {
+                    "attribute":"iata_code",
+                    "value":"CXO",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057d1"
+                },
+                {
+                    "attribute":"airport",
+                    "value":"Montgomery Co",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057d2"
+                },
+                {
+                    "attribute":"country",
+                    "value":"United States",
+                    "units":null,
+                    "value_type":"String",
+                    "id":"4b83f9bb0e61b2220d0057d3"
+                }
+            ],
+            "formula_inputs":
+            [
+            ],
+            "identifier":"United States,
+             Conroe - CXO - Montgomery Co"
+        }
+    ],
+    "total_entries":42519,
+    "per_page":5,
+    "page":1
+}

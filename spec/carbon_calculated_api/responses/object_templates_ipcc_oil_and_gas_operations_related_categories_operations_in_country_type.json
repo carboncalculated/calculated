@@ -1,0 +1,467 @@
+
+{
+    "object_template":
+    {
+        "id":"4c2c84e1d3a90d1d6f000002",
+        "name":"ipcc_oil_and_gas_operations",
+        "characteristics":
+        [
+            {
+                "value_type":"String",
+                "attribute":"co2_uncertainty_range",
+                "units":"percentage"
+            },
+            {
+                "value_type":"String",
+                "attribute":"nmvoc_uncertainty_range",
+                "units":"percentage"
+            },
+            {
+                "value_type":"String",
+                "attribute":"ch4_uncertainty_range",
+                "units":"percentage"
+            },
+            {
+                "value_type":"String",
+                "attribute":"n2o_uncertainty_range",
+                "units":"percentage"
+            },
+            {
+                "value_type":"String",
+                "attribute":"operations_in_country_type",
+                "units":""
+            },
+            {
+                "value_type":"String",
+                "attribute":"emission_source",
+                "units":""
+            },
+            {
+                "value_type":"String",
+                "attribute":"ipcc_codes",
+                "units":""
+            },
+            {
+                "value_type":"String",
+                "attribute":"operation_category",
+                "units":""
+            },
+            {
+                "value_type":"String",
+                "attribute":"operation_sub_category",
+                "units":""
+            }
+        ],
+        "formula_inputs":
+        [
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_total_oil_production",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000000m3_gas_production",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000000m3",
+                "label_input_units":"gg/1000000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000000m3_raw_gas_feed",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000000m3",
+                "label_input_units":"gg/1000000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000000m3_marketable_gas",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000000m3",
+                "label_input_units":"gg/1000000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000000m3_utility_sales",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000000m3",
+                "label_input_units":"gg/1000000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_condensate_and_pentanes_plus",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_lpg",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_conventional_oil_production",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_heavy_oil_production",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_thermal_bitumen_production",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_synthetic_crude_production_from_oilsands",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_synthetic_crude_production_from_oil_shale",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_oil_upgraded",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_oil_transported_by_pipeline",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_oil_transported_by_tanker_truck",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_oil_transported_by_tanker_ships",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_oil_refined",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_product_distributed",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            },
+            {
+                "model_state":"active",
+                "name":"emissions_in_gg_per_1000m3_product_transported",
+                "group_name":null,
+                "base_unit":null,
+                "values":
+                {
+                },
+                "active_at":null,
+                "input_units":"gg/1000m3",
+                "label_input_units":"gg/1000m3",
+                "main_source_id":"4c2c85c7d3a90d1d6f000005"
+            }
+        ],
+        "relatable_categories":
+        [
+            {
+                "id":"4c349f6468fe543496017e31",
+                "name":"developing countries and economies in transition",
+                "related_attribute":"operations_in_country_type",
+                "related_object_name":"ipcc_oil_and_gas_operations",
+                "related_categories":
+                {
+                    "emission_source":
+                    {
+                        "4c349f6068fe5434960178c2":"flaring and venting",
+                        "4c349f6068fe54349601791f":"fugitives",
+                        "4c349f6168fe543496017ac7":"all",
+                        "4c349f6068fe54349601793f":"flaring",
+                        "4c349f6068fe5434960179d6":"raw co2 venting",
+                        "4c349f6168fe543496017aa9":"venting",
+                        "4c349f6168fe543496017b61":"fugitives (onshore)",
+                        "4c349f6168fe543496017b82":"fugitives (offshore)"
+                    },
+                    "ipcc_codes":
+                    {
+                        "4c349f6068fe5434960178c3":"1.b.2.a.ii or 1.b.2.b.ii",
+                        "4c349f6068fe543496017920":"1.b.2.b.iii.2",
+                        "4c349f6368fe543496017db7":"1.b.2.a.iii.5",
+                        "4c349f6068fe543496017940":"1.b.2.b.ii",
+                        "4c349f6068fe54349601795e":"1.b.2.b.iii.3",
+                        "4c349f6068fe5434960179d7":"1.b.2.b.i",
+                        "4c349f6168fe543496017a89":"1.b.2.b.iii.4",
+                        "4c349f6168fe543496017ae6":"1.b.2.b.iii.5",
+                        "4c349f6168fe543496017b05":"1.b.2.a.iii.3",
+                        "4c349f6168fe543496017b62":"1.b.2.a.iii.2",
+                        "4c349f6268fe543496017ba0":"1.b.2.a.i",
+                        "4c349f6268fe543496017bbe":"1.b.2.a.ii",
+                        "4c349f6368fe543496017d98":"1.b.2.a.iii.4"
+                    },
+                    "operation_category":
+                    {
+                        "4c349f6068fe5434960178c4":"well drilling",
+                        "4c349f6068fe5434960178e3":"well testing",
+                        "4c349f6068fe543496017901":"well servicing",
+                        "4c349f6068fe543496017921":"gas production",
+                        "4c349f6368fe543496017db8":"refined product distribution",
+                        "4c349f6068fe54349601795f":"gas processing",
+                        "4c349f6168fe543496017a8a":"gas transmission & storage",
+                        "4c349f6168fe543496017ae7":"gas distribution",
+                        "4c349f6168fe543496017b06":"natural gas liquids transport",
+                        "4c349f6168fe543496017b63":"oil production",
+                        "4c349f6368fe543496017d1f":"oil upgrading",
+                        "4c349f6368fe543496017d3d":"oil transport",
+                        "4c349f6368fe543496017d99":"oil refining"
+                    },
+                    "operation_sub_category":
+                    {
+                        "4c349f6068fe5434960178c5":"all",
+                        "4c349f6368fe543496017df5":"aviation fuel",
+                        "4c349f6468fe543496017e13":"jet kerosene",
+                        "4c349f6068fe543496017960":"sweet gas plants",
+                        "4c349f6068fe54349601799b":"sour gas plants",
+                        "4c349f6568fe543496017f8e":"deep-cut extraction plants (straddle plants)",
+                        "4c349f6168fe543496017a31":"default weighted total",
+                        "4c349f6168fe543496017a8b":"transmission",
+                        "4c349f6168fe543496017ac8":"storage",
+                        "4c349f6168fe543496017b07":"condensate",
+                        "4c349f6168fe543496017b25":"liquefied petroleum gas",
+                        "4c349f6168fe543496017b43":"liquefied natural gas",
+                        "4c349f6168fe543496017b64":"conventional oil",
+                        "4c349f6268fe543496017bdc":"heavy oil/cold bitumen",
+                        "4c349f6268fe543496017c34":"thermal oil production",
+                        "4c349f6268fe543496017c8c":"synthetic crude (from oilsands)",
+                        "4c349f6268fe543496017caa":"synthetic crude (from oil shale)",
+                        "4c349f6368fe543496017d3e":"pipelines",
+                        "4c349f6368fe543496017d5c":"tanker trucks and rail cars",
+                        "4c349f6368fe543496017d7a":"loading of off-shore production on tanker ships",
+                        "4c349f6368fe543496017db9":"gasoline",
+                        "4c349f6368fe543496017dd7":"diesel"
+                    }
+                }
+            },
+            {
+                "id":"4c349f6068fe5434960178c1",
+                "name":"developed countries",
+                "related_attribute":"operations_in_country_type",
+                "related_object_name":"ipcc_oil_and_gas_operations",
+                "related_categories":
+                {
+                    "emission_source":
+                    {
+                        "4c349f6068fe5434960178c2":"flaring and venting",
+                        "4c349f6068fe54349601791f":"fugitives",
+                        "4c349f6068fe54349601793f":"flaring",
+                        "4c349f6068fe5434960179d6":"raw co2 venting",
+                        "4c349f6168fe543496017aa9":"venting",
+                        "4c349f6168fe543496017ac7":"all",
+                        "4c349f6168fe543496017b61":"fugitives (onshore)",
+                        "4c349f6168fe543496017b82":"fugitives (offshore)"
+                    },
+                    "ipcc_codes":
+                    {
+                        "4c349f6068fe5434960178c3":"1.b.2.a.ii or 1.b.2.b.ii",
+                        "4c349f6068fe543496017920":"1.b.2.b.iii.2",
+                        "4c349f6068fe543496017940":"1.b.2.b.ii",
+                        "4c349f6068fe54349601795e":"1.b.2.b.iii.3",
+                        "4c349f6068fe5434960179d7":"1.b.2.b.i",
+                        "4c349f6168fe543496017a89":"1.b.2.b.iii.4",
+                        "4c349f6168fe543496017ae6":"1.b.2.b.iii.5",
+                        "4c349f6168fe543496017b05":"1.b.2.a.iii.3",
+                        "4c349f6168fe543496017b62":"1.b.2.a.iii.2",
+                        "4c349f6268fe543496017ba0":"1.b.2.a.i",
+                        "4c349f6268fe543496017bbe":"1.b.2.a.ii",
+                        "4c349f6368fe543496017d98":"1.b.2.a.iii.4",
+                        "4c349f6368fe543496017db7":"1.b.2.a.iii.5"
+                    },
+                    "operation_category":
+                    {
+                        "4c349f6068fe5434960178c4":"well drilling",
+                        "4c349f6068fe5434960178e3":"well testing",
+                        "4c349f6068fe543496017901":"well servicing",
+                        "4c349f6068fe543496017921":"gas production",
+                        "4c349f6068fe54349601795f":"gas processing",
+                        "4c349f6168fe543496017a8a":"gas transmission & storage",
+                        "4c349f6168fe543496017ae7":"gas distribution",
+                        "4c349f6168fe543496017b06":"natural gas liquids transport",
+                        "4c349f6168fe543496017b63":"oil production",
+                        "4c349f6368fe543496017d1f":"oil upgrading",
+                        "4c349f6368fe543496017d3d":"oil transport",
+                        "4c349f6368fe543496017d99":"oil refining",
+                        "4c349f6368fe543496017db8":"refined product distribution"
+                    },
+                    "operation_sub_category":
+                    {
+                        "4c349f6068fe5434960178c5":"all",
+                        "4c349f6068fe543496017960":"sweet gas plants",
+                        "4c349f6068fe54349601799b":"sour gas plants",
+                        "4c349f6068fe5434960179f5":"deep-cut extraction",
+                        "4c349f6068fe543496017a13":"plants (straddle plants)",
+                        "4c349f6168fe543496017a31":"default weighted total",
+                        "4c349f6168fe543496017a8b":"transmission",
+                        "4c349f6168fe543496017ac8":"storage",
+                        "4c349f6168fe543496017b07":"condensate",
+                        "4c349f6168fe543496017b25":"liquefied petroleum gas",
+                        "4c349f6168fe543496017b43":"liquefied natural gas",
+                        "4c349f6168fe543496017b64":"conventional oil",
+                        "4c349f6268fe543496017bdc":"heavy oil/cold bitumen",
+                        "4c349f6268fe543496017c34":"thermal oil production",
+                        "4c349f6268fe543496017c8c":"synthetic crude (from oilsands)",
+                        "4c349f6268fe543496017caa":"synthetic crude (from oil shale)",
+                        "4c349f6368fe543496017d3e":"pipelines",
+                        "4c349f6368fe543496017d5c":"tanker trucks and rail cars",
+                        "4c349f6368fe543496017d7a":"loading of off-shore production on tanker ships",
+                        "4c349f6368fe543496017db9":"gasoline",
+                        "4c349f6368fe543496017dd7":"diesel",
+                        "4c349f6368fe543496017df5":"aviation fuel",
+                        "4c349f6468fe543496017e13":"jet kerosene"
+                    }
+                }
+            }
+        ]
+    },
+    "total_entries":2,
+    "per_page":50,
+    "page":1
+}

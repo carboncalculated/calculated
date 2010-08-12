@@ -1,0 +1,10 @@
+{
+    "errors":
+    {
+        "amount_of_material":
+        [
+            "can't be blank",
+            "is not a number"
+        ]
+    }
+}
