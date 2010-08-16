@@ -1,0 +1,56 @@
+
+{
+    "relatable_category":
+    {
+        "id":"4c3716a101ec167bdd00475f",
+        "name":"abarth",
+        "related_attribute":"manufacturer",
+        "related_object_name":"car",
+        "related_categories":
+        {
+            "engine_capacity":
+            {
+                "4c370ccc305b954f2a001846":"1368cc"
+            },
+            "euro_standard":
+            {
+                "4c370b097a6e1d3b370006ef":"4",
+                "4c3719eeae2b7b418e0064e5":"5"
+            },
+            "fuel_type":
+            {
+                "4c370ac36f67596a98000e00":"petrol"
+            },
+            "model":
+            {
+                "4c371013a8387301c10048bb":"grande punto",
+                "4c371490a8387301c1005c35":"500"
+            },
+            "model_country":
+            {
+                "4c370ac36f67596a98000e05":"uk"
+            },
+            "registration_month":
+            {
+                "4c370b93305b954f2a000766":"may onwards"
+            },
+            "registration_year":
+            {
+                "4c371a23ea754f0b9100569b":"2010",
+                "4c3716a401ec167bdd004760":"2009"
+            },
+            "transmission":
+            {
+                "4c370ac36f67596a98000dff":"m5",
+                "4c370ac36f67596a98000e29":"m6"
+            }
+        },
+        "related_objects":
+        {
+            "4c371a29ae2b7b4ab10022d6":"ABARTH - Grande Punto - 1.4 T-Jet 155 - 1368cc - M6 - Petrol - 2010 - May onwards",
+            "4c371cc094343e40bf006ec7":"ABARTH - 500 - Abarth - 1368cc - M5 - Petrol - 2010 - May onwards",
+            "4c3716a101ec167bdd00474e":"ABARTH - Grande Punto - 1.4 T-Jet 155 - 1368cc - M6 - Petrol - 2009 - May onwards",
+            "4c3716c83c12432832004d35":"ABARTH - 500 - Abarth - 1368cc - M5 - Petrol - 2009 - May onwards"
+        }
+    }
+}

@@ -1,5 +1,23 @@
 module Calculated
-  module RelatableCategoryApiCalls    
+  module RelatableCategoryApiCalls  
+    
+    
+    # @param [String] id
+    # @param [Hash] params
+    # @return [Calculated::Models::RelatableCategory]
+    def relatable_category(id, params = {})
+      api_call(:get, "/relatable_categories/#{id}", params) do |response|
+         Calculated::Models::RelatableCategory.new(response["relatable_category"])
+      end
+    end
+    
+    # @param [Hash] params
+    # @return [Array<Calculated::Models::RelatableCategory>
+    def relatable_categories(params = {})
+      api_call(:get, "/relatable_categories", params) do |response|
+         response["relatable_categories"].map{|relatable_category| Calculated::Models::RelatableCategory.new(relatable_category)}
+      end
+    end
   
     # this call just beings back a native array with hash of ids and identifiers
     # @example 

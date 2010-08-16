@@ -5,6 +5,18 @@ describe "Session" do
     @session = Calculated::Session.create(:api_key => "testing_api_key")
   end
   
+  describe "#object_templates with :id" do
+    before(:each) do
+      @result = @session.object_template("4c205ac5d3aea93ba9000003")
+    end
+    
+    it "should find the object_template with name 'car'" do
+      @result.is_a?(Calculated::Models::ObjectTemplate)
+      @result.name.should == "car"
+      @result.characteristics.should_not be_empty
+    end
+  end
+  
   describe "#object_templates" do
     it "should create object template objects array with successful request" do
       @session.object_templates.each{|a| a.is_a?(Calculated::Models::ObjectTemplate).should be_true}
