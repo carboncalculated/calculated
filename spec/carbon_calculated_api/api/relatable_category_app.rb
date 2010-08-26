@@ -16,6 +16,17 @@ module CarbonCalculatedApi
       end
     end
     
+    
+    
+    get "/relatable_categories/:id.json" do |id|
+      File.read(File.join(File.dirname(__FILE__), "..", "responses", "relatable_category.json"))
+    end
+    
+    get "/relatable_categories.json" do
+      File.read(File.join(File.dirname(__FILE__), "..", "responses", "relatable_categories.json"))
+    end
+    
+
     get "/relatable_categories/:id/related_categories.json" do |id|
       if @related_attribute = params[:related_attribute]
         begin

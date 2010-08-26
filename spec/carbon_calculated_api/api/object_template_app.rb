@@ -1,6 +1,10 @@
 module CarbonCalculatedApi
   class ObjectTemplateApp < API::App
     
+    get "/object_templates/:id.json" do |id|
+      File.read(File.join(File.dirname(__FILE__), "..", "responses", "object_template.json"))
+    end
+    
     get "/object_templates.json" do
       if @per_page.to_i == 5
         File.read(File.join(File.dirname(__FILE__), "..", "responses", "object_templates_per_page_5.json"))        

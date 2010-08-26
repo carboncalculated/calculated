@@ -1,5 +1,15 @@
 module Calculated
-  module ObjectTemplateApiCalls    
+  module ObjectTemplateApiCalls
+    
+    
+    # @param [String] id
+    # @param [Hash] params
+    # @return [Calculated::Models::ObjectTemplate]
+    def object_template(id, params = {})
+      api_call(:get, "/object_templates/#{id}", params) do |response|
+         Calculated::Models::ObjectTemplate.new(response["object_template"])
+      end
+    end 
   
     # @param [Hash] params
     # @return [Array<Calculated::Models::ObjectTemplate>]

@@ -6,7 +6,8 @@ module Calculated
       property :id # [String]
       property :name # [String]
       property :related_attribute # [String] 
-      property :related_object_name # [String]      
+      property :related_object_name # [String]    
+      property :related_objects # [Hash{name => <Hash{:id => identifier}}] 
       # @example 
       #  "emission_source" => {
       #   {
