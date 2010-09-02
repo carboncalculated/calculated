@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   # If you have other dependencies, add them here
   # s.add_dependency "another", "~> 1.2"
-  s.add_dependency 'activesupport',           '~> 3.0.0.rc2'
+  s.add_dependency 'activesupport',           '~> 3.0.0'
   s.add_dependency 'httparty',           '~> 0.6.1'
   s.add_dependency 'hashie',           '~> 0.2.1'
   s.add_dependency 'moneta',           '~> 0.6.0'
