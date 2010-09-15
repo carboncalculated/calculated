@@ -64,7 +64,7 @@ Now that you have a session you can call methods on the session to interact with
 
 Lets first got to the calculator on the browser (click here to see what I mean http://browser.carboncalculated.com/calculators/4bab7e4ff78b122cdd000004/computations/4bab7e64f78b122cdd000005"
 
-    @answer = @session.answer_from_computation("4bab7e64f78b122cdd000005", {"material_category"=>"4bf42d8046a95925b5000efb", "type_of_material"=>"4bf42d8046a95925b5000f40", "material"=>"4bf42d8046a95925b5000f2a", "amount_of_material"=>"10", "formula_input_name"=>"emissions_by_kg"})
+    @answer = @session.answer_for_computation("4bab7e64f78b122cdd000005", {"material_category"=>"4bf42d8046a95925b5000efb", "type_of_material"=>"4bf42d8046a95925b5000f40", "material"=>"4bf42d8046a95925b5000f2a", "amount_of_material"=>"10", "formula_input_name"=>"emissions_by_kg"})
     @answer.calculations["co2"]["value"]
     
     
@@ -72,7 +72,7 @@ Lets first got to the calculator on the browser (click here to see what I mean h
     OR
     
     
-    @answer = @session.answer_from_calculator("4bab7e4ff78b122cdd000004", {"material_category"=>"4bf42d8046a95925b5000efb", "type_of_material"=>"4bf42d8046a95925b5000f40", "material"=>"4bf42d8046a95925b5000f2a", "amount_of_material"=>"10", "formula_input_name"=>"emissions_by_kg"})
+    @answer = @session.answer_for_calculator("4bab7e4ff78b122cdd000004", {"material_category"=>"4bf42d8046a95925b5000efb", "type_of_material"=>"4bf42d8046a95925b5000f40", "material"=>"4bf42d8046a95925b5000f2a", "amount_of_material"=>"10", "formula_input_name"=>"emissions_by_kg"})
     @answer.calculations["co2"]["value"]
     
     This will return a Calculated::Models::Answer Object
