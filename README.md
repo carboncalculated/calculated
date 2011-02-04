@@ -31,13 +31,13 @@ You can install it as:
     @session = Calculated::Session.create(:api_key => "your_api_key")
 
 ##Overwriting defaults##
-
+``
 **These are the defaults**
 
     caching                    # => true (boolean)
     expires_in                 # => 60*60*24 (seconds)
     cache                      # => Moneta::Memory.new "(Moneta Supported Cache) http://github.com/wycats/moneta
-    server                     # => "api.carboncalculated.com" (string)
+    server                     # => "api-stage.carboncalculated.com" (string)
     api_version                #=>  "v1" (string)
     logging                    # => true (boolean)
     

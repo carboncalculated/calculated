@@ -45,7 +45,7 @@ module Calculated
         @expires_in = options.delete(:expires_in) || 60*60*24
         @cache = options.delete(:cache) || Moneta::Memory.new 
       end
-      @server = options.delete(:server) || "api.carboncalculated.com"
+      @server = options.delete(:server) || "api-stage.carboncalculated.com"
       @api_version = options.delete(:api_version) || "v1"
       @logging = options[:logging].nil? ? true : options.delete(:caching)
     end
