@@ -3,7 +3,7 @@ require "httparty"
 require "hashie"
 require "moneta"
 require "moneta/memory"
-
+require 'active_support/ordered_hash'
 
 require "calculated/generic_object_api_calls"
 require "calculated/object_template_api_calls"

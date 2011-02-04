@@ -2,12 +2,11 @@ module Calculated
   class Service
     include HTTParty
     format :json
-    headers 'Accept' => 'application/json'
-    
+        
     # set the httparty defaults [this obviously makes 1 service] limitation me feels
     def initialize(server, api_version, api_key)
       self.class.base_uri "http://#{server}/api/#{api_version}"
-      self.class.default_params :api_key => api_key
+      self.class.headers 'Accept' => 'application/json', "X-CCApiKey" => api_key
     end
     
     def get(path, params = {})

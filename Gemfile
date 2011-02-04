@@ -8,7 +8,7 @@ gem "yard"
 # These are development dependencies 
 group :test do
   gem "rake"
-  gem "rspec", "2.0.0.beta.8"
+  gem "rspec", "2.4.0"
   gem "artifice", "0.5"
   gem "sinatra", "1.0"
   gem "rack-contrib", "0.9.2", :require => "rack/contrib"

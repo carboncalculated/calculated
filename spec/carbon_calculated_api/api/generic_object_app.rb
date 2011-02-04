@@ -21,6 +21,7 @@ module CarbonCalculatedApi
       begin
         File.read(File.join(File.dirname(__FILE__), "..", "responses", "formula_inputs_#{id}.json"))
       rescue
+        puts "SFDGOJSFDOGJSFODGJSOFDJGSOFDJGODFJ #{id}"
         raise Sinatra::NotFound
       end
     end

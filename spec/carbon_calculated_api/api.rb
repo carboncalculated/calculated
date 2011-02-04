@@ -32,8 +32,8 @@ module CarbonCalculatedApi
       end
       
       before do
-        if params[:api_key]
-          unless ApiUser.first(:model_state => "active", :api_key => params[:api_key])
+        if api_key = params[:api_key] || request_headers["x_ccapikey"]
+          unless ApiUser.first(:model_state => "active", :api_key => api_key)
             throw(:halt, [401, {:error => "Not authorized"}.to_json])
           end
         else
@@ -50,6 +50,12 @@ module CarbonCalculatedApi
                   
       not_found do
         {:errors => "Resource Not Found"}.to_json
+      end
+      
+      helpers do
+        def request_headers
+          env.inject({}){|acc, (k,v)| acc[$1.downcase] = v if k =~ /^http_(.*)/i; acc}
+        end
       end
             
     end 
